@@ -16,8 +16,10 @@ namespace TheMonarchs.API
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>()
-                    .UseSerilog((hostingContext, loggerConfiguration) => loggerConfiguration
-                    .ReadFrom.Configuration(hostingContext.Configuration));
+                    .UseSerilog((hostingContext, loggerConfiguration) =>
+                    {
+                        loggerConfiguration.ReadFrom.Configuration(hostingContext.Configuration);
+                    });
                 });
     }
 }
