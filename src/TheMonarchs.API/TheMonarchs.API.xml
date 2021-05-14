@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TheMonarchs.API</name>
+    </assembly>
+    <members>
+        <member name="T:TheMonarchs.API.Automapper.MappingProfile">
+            <summary>
+            Automapper Profile
+            </summary>
+        </member>
+        <member name="T:TheMonarchs.API.Common.Behaviours.ValidationBehaviour`2">
+            <summary>
+            
+            </summary>
+            <typeparam name="TRequest"></typeparam>
+            <typeparam name="TResponse"></typeparam>
+        </member>
+        <member name="T:TheMonarchs.API.Controllers.HouseController">
+            <summary>
+            Controller of House related operations
+            </summary>
+        </member>
+        <member name="M:TheMonarchs.API.Controllers.HouseController.FindMonarchsByHouse(TheMonarchs.API.MediatR.House.Commands.FindMonarchsByHouseCommand)">
+            <summary>
+            Finds Monarchs by house name.
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TheMonarchs.API.Controllers.HouseController.GetLongestRulingHouse">
+            <summary>
+            Get the longest ruling house
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:TheMonarchs.API.Controllers.MonarchsController">
+            <summary>
+            Controller for Monarchs relation operations.
+            </summary>
+        </member>
+        <member name="M:TheMonarchs.API.Controllers.MonarchsController.All(TheMonarchs.API.MediatR.Monarchs.Queries.GetMonarchsWithPaginationQuery)">
+            <summary>
+             Get paginated list of Monarchs. Pagination metadata returned as X-Pagination response header
+            </summary>
+            <param name="pagingParams">Page Number and Page size</param>
+            <returns></returns>
+        </member>
+        <member name="M:TheMonarchs.API.Controllers.MonarchsController.GetLongestRulingMonarch">
+            <summary>
+            Get the longest ruling Monarch details
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TheMonarchs.API.Controllers.MonarchsController.MostCommonFirstName">
+            <summary>
+            Gets the name of most common first name with number of occurrences.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TheMonarchs.API.Extensions.IServicesCollectionExtension.AddAppServicesRegistration(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

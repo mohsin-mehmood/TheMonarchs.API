@@ -1,0 +1,12 @@
+C:\Projects\TheMonarchs\src\TheMonarchs.Infrastructure\bin\Debug\netstandard2.1\TheMonarchs.Infrastructure.deps.json
+C:\Projects\TheMonarchs\src\TheMonarchs.Infrastructure\bin\Debug\netstandard2.1\TheMonarchs.Infrastructure.dll
+C:\Projects\TheMonarchs\src\TheMonarchs.Infrastructure\bin\Debug\netstandard2.1\TheMonarchs.Infrastructure.pdb
+C:\Projects\TheMonarchs\src\TheMonarchs.Infrastructure\bin\Debug\netstandard2.1\TheMonarchs.Core.dll
+C:\Projects\TheMonarchs\src\TheMonarchs.Infrastructure\bin\Debug\netstandard2.1\TheMonarchs.Core.pdb
+C:\Projects\TheMonarchs\src\TheMonarchs.Infrastructure\obj\Debug\netstandard2.1\TheMonarchs.Infrastructure.csprojAssemblyReference.cache
+C:\Projects\TheMonarchs\src\TheMonarchs.Infrastructure\obj\Debug\netstandard2.1\TheMonarchs.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\TheMonarchs\src\TheMonarchs.Infrastructure\obj\Debug\netstandard2.1\TheMonarchs.Infrastructure.AssemblyInfo.cs
+C:\Projects\TheMonarchs\src\TheMonarchs.Infrastructure\obj\Debug\netstandard2.1\TheMonarchs.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\TheMonarchs\src\TheMonarchs.Infrastructure\obj\Debug\netstandard2.1\TheMonarchs.Infrastructure.csproj.CopyComplete
+C:\Projects\TheMonarchs\src\TheMonarchs.Infrastructure\obj\Debug\netstandard2.1\TheMonarchs.Infrastructure.dll
+C:\Projects\TheMonarchs\src\TheMonarchs.Infrastructure\obj\Debug\netstandard2.1\TheMonarchs.Infrastructure.pdb

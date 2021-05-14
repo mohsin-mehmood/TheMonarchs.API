@@ -1,0 +1,9 @@
+C:\Projects\TheMonarchs\src\TheMonarchs.Core\bin\Debug\netstandard2.1\TheMonarchs.Core.deps.json
+C:\Projects\TheMonarchs\src\TheMonarchs.Core\bin\Debug\netstandard2.1\TheMonarchs.Core.dll
+C:\Projects\TheMonarchs\src\TheMonarchs.Core\bin\Debug\netstandard2.1\TheMonarchs.Core.pdb
+C:\Projects\TheMonarchs\src\TheMonarchs.Core\obj\Debug\netstandard2.1\TheMonarchs.Core.AssemblyInfoInputs.cache
+C:\Projects\TheMonarchs\src\TheMonarchs.Core\obj\Debug\netstandard2.1\TheMonarchs.Core.AssemblyInfo.cs
+C:\Projects\TheMonarchs\src\TheMonarchs.Core\obj\Debug\netstandard2.1\TheMonarchs.Core.csproj.CoreCompileInputs.cache
+C:\Projects\TheMonarchs\src\TheMonarchs.Core\obj\Debug\netstandard2.1\TheMonarchs.Core.dll
+C:\Projects\TheMonarchs\src\TheMonarchs.Core\obj\Debug\netstandard2.1\TheMonarchs.Core.pdb
+C:\Projects\TheMonarchs\src\TheMonarchs.Core\obj\Debug\netstandard2.1\TheMonarchs.Core.csprojAssemblyReference.cache
