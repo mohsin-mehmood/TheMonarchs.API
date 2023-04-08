@@ -28,10 +28,10 @@ namespace TheMonarchs.API.Tests.Commands
                 var mediartR = scope.ServiceProvider.GetService<ISender>();
 
 
-                FluentActions.Invoking(() => mediartR.Send(new FindMonarchsByHouseCommand
+               await FluentActions.Invoking(() => mediartR.Send(new FindMonarchsByHouseCommand
                 {
                     HouseName = null
-                })).Should().Throw<ValidationException>();
+                })).Should().ThrowAsync<ValidationException>();
 
             }
         }
@@ -47,10 +47,10 @@ namespace TheMonarchs.API.Tests.Commands
                 var mediartR = scope.ServiceProvider.GetService<ISender>();
 
 
-                FluentActions.Invoking(() => mediartR.Send(new FindMonarchsByHouseCommand
+               await FluentActions.Invoking(() => mediartR.Send(new FindMonarchsByHouseCommand
                 {
                     HouseName = "xxxx"
-                })).Should().Throw<NotFoundException>();
+                })).Should().ThrowAsync<NotFoundException>();
 
             }
         }
