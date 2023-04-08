@@ -32,7 +32,10 @@ namespace TheMonarchs.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRepositoriesRegistrations(new MonarchJsonDataProvider(Configuration.GetConnectionString("JsonDataFile")));
+            var dataFilePath = Path.Combine(System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location),
+                                            Configuration.GetConnectionString("JsonDataFile"));
+
+            services.AddRepositoriesRegistrations(new MonarchJsonDataProvider(dataFilePath));
             services.AddAppServicesRegistration();
 
 

@@ -10,7 +10,7 @@ namespace TheMonarchs.API.Extensions
     {
         public static IServiceCollection AddRepositoriesRegistrations(this IServiceCollection services, IMonarchDataProvider monarchDataProvider)
         {
-            services.AddScoped(opt => monarchDataProvider); 
+            services.AddScoped(opt => monarchDataProvider);
             services.AddScoped<IMonarchDataRepository, MonarchDataRepository>();
             return services;
         }
@@ -22,7 +22,8 @@ namespace TheMonarchs.API.Extensions
         /// <returns></returns>
         public static IServiceCollection AddAppServicesRegistration(this IServiceCollection services)
         {
-            services.AddMediatR(typeof(Startup));
+
+            services.AddMediatR(cfg => { cfg.RegisterServicesFromAssemblyContaining(typeof(Startup)); });
             services.AddValidatorsFromAssemblyContaining(typeof(Startup));
             services.AddAutoMapper(typeof(Startup));
 
