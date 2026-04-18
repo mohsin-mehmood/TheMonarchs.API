@@ -1,9 +1,11 @@
 name: Validate PR
-run-name: Validate PR
+run-name: Validate PR for ${{github.head_ref}} by ${{github.actor}}
 on: pull_request
 env:
   DOTNET_VERSION: "6.x"
   BUILD_CONFIG: Release
+permissions:
+  contents: read
 jobs:
   build:
     runs-on: ubuntu-latest
